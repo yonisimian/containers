@@ -22,7 +22,7 @@
 *   mapRemove		  - NOTE: Resets the internal iterator.
 *   mapGetFirst
 *   mapGetNext
-*	  mapClear
+*	mapClear
 *
 * 	MAP_FOREACH	- A macro for iterating over the map's elements.
 *
