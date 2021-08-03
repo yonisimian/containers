@@ -32,6 +32,8 @@ However, the list also contains **apply** and **filter** functions which are ver
 - **Set** - also provides an iterator, a macro, and two pleasant functions - **union** and **intersection**.
 
 >NOTE:  All of the C containers use **function pointers** in order to maintain it's generalness, because all of it's data is void* and must be copied, freed and compared using functions given by the user.
+
+>NOTE:  All of the errors in these containers are handled using enums of the possible results.
  
 ## C++ Containers
 
@@ -49,6 +51,8 @@ It's very basic, so it's a good example for implementing C containers using arra
 
 >NOTE:  All of the C containers use **templates** in order to maintain it's generalness.
 The usage of templates forces us to assume characteristics about the data stored in the container (more details in the Sorted List documentation).
+
+>NOTE:  All of the errors in these containers are handled using exceptions (some inherit std::exception, some not).
 
 ## Summary
 All of the above containers are made by me for educational purposes.
