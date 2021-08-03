@@ -57,6 +57,9 @@ The usage of templates forces us to assume characteristics about the data stored
 ## Summary
 All of the above containers are made by me for educational purposes.
 
+I do not explain what a container is or how does it work, you can find plenty of these explanations in the internet.
+I do provide the implementation and some documentation for the containers, becuase finding them in the internet is a bit harder.
+
 You can copy and use it for your purposes, learn from it and even upgrade it.
 The downside is that it might have bugs, because I'm not a master programmer, yet ;)
 
