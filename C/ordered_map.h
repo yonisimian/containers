@@ -22,9 +22,9 @@
 *   mapRemove		  - NOTE: Resets the internal iterator.
 *   mapGetFirst
 *   mapGetNext
-*	mapClear
+*   mapClear
 *
-* 	MAP_FOREACH	- A macro for iterating over the map's elements.
+*   MAP_FOREACH	- A macro for iterating over the map's elements.
 *
 *   NOTE: the "put" and "copy" methods create copies of the elements,
 *         while all of the "get" methods return the elements in the map (and not another copies).
