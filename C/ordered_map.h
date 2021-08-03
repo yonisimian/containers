@@ -198,4 +198,4 @@ MapResult mapClear(Map map);
         iterator ;\
         iterator = mapGetNext(map))
 
-#endif /* ORDERED_MAP_H_ */ 
+#endif
