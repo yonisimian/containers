@@ -7,13 +7,13 @@ This repository is made for educational purposes, therefore I have tried to prov
 - And much more...
 
 _So... what's on the menu?!_
-|   |C              |C++                       |
-|---|---------------|--------------------------|
-|	|Ordered Map    |Sorted List (Node-Based)  |
-|	|List    		|List (Node-Based)         |
-|   |Queue			|Queue (List-Based)		   |
-|   |Stack    		|Stack (Array-Based)       |
-|   |Set			|Set (Array-Based)		   |
+|C              |C++                       |
+|---------------|--------------------------|
+|Ordered Map    |Sorted List (Node-Based)  |
+|List    		     |List (Node-Based)         |
+|Queue			       |Queue (List-Based)		      |
+|Stack    		    |Stack (Array-Based)       |
+|Set			         |Set (Array-Based)		       |
 
 
 ## C containers
