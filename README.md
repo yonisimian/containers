@@ -46,10 +46,10 @@ It also provides **apply** and **filter** functions, that are good examples of u
 - **Queue** - the only container I have written using std as it's base (instead of nodes or array).
 It's a good example (in my opinion) for using std for our purposes.
 - **Stack** - the first container to be implemented using an array.
-It's very basic, so it's a good example for implementing C containers using arrays.
+It's very basic, so it's a good example for implementing C++ containers using arrays.
 - **Set** - a normal set with all it's find / expand / unite / intersect shenanigans.
 
->NOTE:  All of the C containers use **templates** in order to maintain it's generalness.
+>NOTE:  All of the C++ containers use **templates** in order to maintain it's generalness.
 The usage of templates forces us to assume characteristics about the data stored in the container (more details in the Sorted List documentation).
 
 >NOTE:  All of the errors in these containers are handled using exceptions (some inherit std::exception, some not).
