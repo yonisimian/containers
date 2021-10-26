@@ -58,7 +58,7 @@ Stack stackCopy(Stack stack)
     Node* ptr = stack->head;
     Node* new_ptr = NULL;
     while (ptr != NULL) {
-        Node* node = createNode(stack, element);
+        Node* node = createNode(stack, ptr->data);
         if (node == NULL) {
             stackDestroy(new_stack);
             return NULL;
