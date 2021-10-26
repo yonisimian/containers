@@ -9,7 +9,8 @@ typedef void (*ElemFreeFunction)(Element);
 typedef bool (*ElemEqualFunction)(Element a, Element b);  // return a == b
 typedef bool (*ElemConditionFunction)(Element, void* param);
 
-typedef struct set* Set;
+typedef struct set_t* Set;
+
 typedef enum {
     SET_SUCCESS,
     SET_OUT_OF_MEMORY,
