@@ -1,5 +1,5 @@
 # Containers
-In this repository, you will find generic containers written in c / c++.
+In this repository, you will find generic containers written in C / C++.
 This repository is made for educational purposes, therefore I have tried to provide diversity of implementations, among them you will find:
 - Containers based on arrays (easy implementation, limited size)
 - Containers based on nodes (a little complicated, unlimited size)
@@ -24,7 +24,7 @@ There are currently 5 containers:
 It contains an unlimited amount of key-data pairs, and is sorted by the key.
 Both the key and the data can be anything (void*), as long as you copy & free them.
 The map also provides an **iterator** and a macro to iterate over the container.
-- **Linked List** - good old fashioned lover linked-list. 
+- **Linked List** - good old fashioned linked-list. 
 Also provides an iterator, but is overall less detailed than the previous container.
 However, the list also contains **apply** and **filter** functions which are very useful!
 - **Queue** - just a simple queue, no iterator or interesting functions.
